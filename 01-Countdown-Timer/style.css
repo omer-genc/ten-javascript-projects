@@ -1,0 +1,8 @@
+body {
+    background-image: url("img.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
