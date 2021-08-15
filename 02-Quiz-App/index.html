@@ -1,23 +1,41 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
 
-    <link rel="stylesheet" href="style.css">
+<body>
 
-    <title>New project</title>
-  </head>
-  <body>
-    <h1>Hello, Ömer!</h1>
+    <div class="quiz-container">
+        <div class="quiz-hader">
+            <h2 id="questions">Question text: Lorem, ipsum dolor.</h2>
+            <ul>
+                <li>
+                    <input type="radio" class="answer" id="a" name="answer">
+                    <label id="a_text"  for="a">label: Lorem, ipsum dolor.</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="b" name="answer">
+                    <label id="b_text"  for="b">label: Lorem, ipsum dolor.</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="c" name="answer">
+                    <label id="c_text"  for="c">label: Lorem, ipsum dolor.</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="d" name="answer">
+                    <label id="d_text"  for="d">label: Lorem, ipsum dolor.</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">Gönder</button>
+    </div>
 
-   
-    <script src="script.js"></script>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
