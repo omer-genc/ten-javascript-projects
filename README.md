@@ -1,2 +1,4 @@
-# ten-javascript-projects
-10 javascript projects
+# Ten Javascript Projects
+
+## 01 Countdown Timer
+![](img/p01.gif)
